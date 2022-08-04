@@ -21,6 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 ## Inherit from a505fn device
 $(call inherit-product, device/samsung/a505fn/device.mk)
 
+# Gapps
+WITH_GMS := true
+
 ## Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_BOOTANIMATION_HALF_RES := true
