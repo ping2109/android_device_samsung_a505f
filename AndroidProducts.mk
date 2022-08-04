@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_a505fn.mk
+    $(LOCAL_DIR)/cherish_a505fn.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_a505fn-eng \
-    aosp_a505fn-user \
-    aosp_a505fn-userdebug
+    cherish_a505fn-eng \
+    cherish_a505fn-user \
+    cherish_a505fn-userdebug
