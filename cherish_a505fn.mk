@@ -56,3 +56,7 @@ BUILD_FINGERPRINT := samsung/a50dd/a50:11/RP1A.200720.012/A505FDDS9CUK1:user/rel
 
 ## FOD animations
 EXTRA_UDFPS_ANIMATIONS := true
+
+# Add CherishOS Maintainer name
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer="Anh Vinh (ping2109)"
