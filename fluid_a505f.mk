@@ -18,11 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-## Inherit from a505fn device
-$(call inherit-product, device/samsung/a505fn/device.mk)
-
-# Gapps
-WITH_GMS := true
+## Inherit from a505f device
+$(call inherit-product, device/samsung/a505f/device.mk)
 
 ## Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -30,15 +27,15 @@ TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
-## Inherit some common CherishOS stuff
+## Inherit some common Project Fluid stuff
 $(call inherit-product, vendor/fluid/config/common_full_phone.mk)
 
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_DEVICE := a505fn
-PRODUCT_NAME := fluid_a505fn
+PRODUCT_DEVICE := a505f
+PRODUCT_NAME := fluid_a505f
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := Galaxy A50
 PRODUCT_MANUFACTURER := samsung
