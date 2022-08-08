@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_a505f.mk
+    $(LOCAL_DIR)/evolution_a505f.mk
 
 COMMON_LUNCH_CHOICES := \
-    fluid_a505f-eng \
-    fluid_a505f-user \
-    fluid_a505f-userdebug
+    evolution_a505f-eng \
+    evolution_a505f-user \
+    evolution_a505f-userdebug
