@@ -37,7 +37,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 PRODUCT_DEVICE := a505f
 PRODUCT_NAME := spark_a505f
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A505F
+PRODUCT_MODEL := Galaxy A50
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 28
 
