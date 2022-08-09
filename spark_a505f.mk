@@ -33,6 +33,9 @@ $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Gapps
+WITH_GAPPS := true
+
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a505f
 PRODUCT_NAME := spark_a505f
