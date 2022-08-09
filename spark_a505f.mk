@@ -33,7 +33,7 @@ $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-# Gapps
+## Gapps
 WITH_GAPPS := true
 
 ## Device identifier, this must come after all inclusions
@@ -53,3 +53,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="a50dd-user 11 RP1A.200720.012 A505FDDS9CUK1 release-keys"
 
 BUILD_FINGERPRINT := samsung/a50dd/a50:11/RP1A.200720.012/A505FDDS9CUK1:user/release-keys
+
+## Quick tap
+TARGET_SUPPORTS_QUICK_TAP := true
