@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_a505f.mk
+    $(LOCAL_DIR)/nad_a505f.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_a505f-eng \
-    evolution_a505f-user \
-    evolution_a505f-userdebug
+    nad_a505f-eng \
+    nad_a505f-user \
+    nad_a505f-userdebug

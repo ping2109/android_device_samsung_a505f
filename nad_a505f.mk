@@ -27,15 +27,15 @@ TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
-## Inherit some common EvolutionX stuff
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+## Inherit some common Nusantara stuff
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a505f
-PRODUCT_NAME := evolution_a505f
+PRODUCT_NAME := nad_a505f
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := Galaxy A50
 PRODUCT_MANUFACTURER := samsung
@@ -54,5 +54,5 @@ BUILD_FINGERPRINT := samsung/a50dd/a50:11/RP1A.200720.012/A505FDDS9CUK1:user/rel
 ## Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
-# UDFPS ANIMATIONS
-EXTRA_UDFPS_ANIMATIONS := true
+## Pixel charging
+USE_PIXEL_CHARGING := true
