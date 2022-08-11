@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a505f.mk
+    $(LOCAL_DIR)/awaken_a505f.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_a505f-eng \
-    lineage_a505f-user \
-    lineage_a505f-userdebug
+    awaken_a505f-eng \
+    awaken_a505f-user \
+    awaken_a505f-userdebug
