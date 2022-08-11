@@ -33,6 +33,13 @@ $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+## GApps
+TARGET_GAPPS_ARCH := arm64
+USE_GAPPS := true
+
+## Google Recorder
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a505f
 PRODUCT_NAME := awaken_a505f
