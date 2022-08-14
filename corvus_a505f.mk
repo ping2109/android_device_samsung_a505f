@@ -59,3 +59,6 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 
 ## Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
+
+## Blur
+TARGET_USES_BLUR := true
