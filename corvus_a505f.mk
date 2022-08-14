@@ -56,3 +56,6 @@ TARGET_SUPPORTS_QUICK_TAP := true
 
 ## Pixel Charger
 TARGET_INCLUDE_PIXEL_CHARGER := true
+
+## Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
