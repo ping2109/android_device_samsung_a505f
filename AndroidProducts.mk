@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a505f.mk
+    $(LOCAL_DIR)/potato_a505f.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_a505f-eng \
-    lineage_a505f-user \
-    lineage_a505f-userdebug
+    potato_a505f-eng \
+    potato_a505f-user \
+    potato_a505f-userdebug
